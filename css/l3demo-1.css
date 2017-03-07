@@ -1,0 +1,314 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[ MASTER STYLESHEET ]
+AUTHOR : NCode.Art
+PROJECT : NC-Hold Coming-Soon Page
+VERSION : 2.0
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	IMPORT FONTS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	GENERAL
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+body{ color: #000; background-color: #000; }
+#main .overlay{ background-color: transparent !important; }
+#home-page,
+#ajax-page .pg-wrp{
+	background-color: rgba(255,255,255,0.9);
+	padding: 100px;
+}
+
+/*	FONTS
+------------------------------*/
+.ff-1{ font-family: 'Lato', sans-serif; }
+.ff-2{ font-family: 'Open Sans', sans-serif; }
+
+#navigation .link-box-1 .text,
+.tagline h1,
+.subscribe .form-control,
+.dash .digit,.contact-form .form-control,
+.contact-box .text p,
+.contact-box .text a,
+.btn.btn-color,
+.measure-box .per .no,
+.project-detail .h-text,
+.package-box .name,
+.package-box .amount-wrp .amount,
+.about-us-page.s1 .large-text{
+	font-family: 'Lato', sans-serif;
+}
+.tagline p,
+.title-wrapper p,
+.info-box .text p,
+.text-info p,
+#notifyMe .message,
+.team-box .text .small-text,
+.project-detail p,
+.dash_title{
+	font-family: 'Open Sans', sans-serif;	
+}
+
+/*	TYPOGRAPHY
+------------------------------*/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	color: #000;
+}
+
+/*	BUTTON
+------------------------------*/
+.btn.btn-color{
+	background-color: #d99040;
+	color: #fff;
+	font-weight: 700;
+}
+.btn.btn-color:hover{
+	border-color: #d99040;
+	color: #d99040;
+}
+.btn.btn-color:focus { outline: none; }
+
+/*	TITLE
+------------------------------*/
+.title-wrapper .title{ 
+	color: #000; 
+	font-weight: 700;
+	letter-spacing: 0px;
+	font-size: 28px;
+}
+.title-wrapper .line{ background-color: #d99040; }
+.title-wrapper p{
+	color: #000;
+	font-weight: 300;
+	font-size: 22px;
+	letter-spacing: 0;
+}
+.title-wrapper.sub .title{
+	color: #000; 
+	font-weight: 700;
+	letter-spacing: 0px;
+	font-size: 16px;
+}
+.title-wrapper.sub .line{
+	width: 50px;
+}
+
+/*	CAROUSEL COMMON STYLE
+---------------------------------*/
+.carousel-btn .btn {
+	color: #d99040;
+	border-color: #d99040;
+}
+
+/*	NAVIGATION
+------------------------------*/
+#navigation .link-box-1{
+	background-color: rgba(255,255,255,0.9);
+	color: #000;
+}
+#navigation .link-box-1 .text{
+	letter-spacing: 0;
+	font-weight: 800;
+}
+#navigation .link-box-1 .icon{
+	color: #d99040;
+}
+#navigation .link-box-1:hover, 
+#navigation .link-box-1.nc-active{
+	background-color: #000;
+	color: #fff;
+}
+#navigation .link-box-1:hover .icon{
+	color: #fff;
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	HOME PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*	TAGLINE
+------------------------------*/
+.tagline h1{
+	color: #000;
+	font-weight: 300;
+	letter-spacing: 0px;
+	text-transform: none;
+	margin-bottom: 20px;
+}
+.tagline h1 .change{
+	color: #d99040;
+	text-transform: none;
+	font-weight: 900;
+	font-size: 65px;
+}
+.tagline p{
+	border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 12px;
+    color: #000;
+    font-weight: 100;
+    font-size: 26px;
+    width: 65%;
+    letter-spacing: 0;
+}
+
+/*	SUBSCRIBE
+------------------------------*/
+.subscribe .form-control{
+	background-color: transparent;
+	border: 1px solid;
+    border-color: rgba(0,0,0,0.1);
+    color: #000;
+    font-weight: 300;
+    padding: 10px 15px;
+    letter-spacing: 0px;
+}
+.subscribe .form-control:focus{ border-color: #000; }
+.subscribe .form-control::-webkit-input-placeholder { color: #000; }
+.subscribe .form-control:-moz-placeholder { color: #000; opacity: 1; }
+.subscribe .form-control::-moz-placeholder { color: #000; opacity: 1; }
+.subscribe .form-control:-ms-input-placeholder { color: #000; }
+.subscribe .icon{
+	right: 0px;
+	top: 0;
+	width: 60px;
+	color: #d99040;
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+#notifyMe .message{ font-weight: 300; font-size: 16px; }
+.subscribe .icon:hover{ 
+	background-color: #000;
+	color: #fff; 
+}
+
+/*	SOCIAL-ICON
+------------------------------*/
+.social-icon .icon{ color: #d99040; }
+.social-icon .icon:hover{ color: #fff; }
+.social-icon .icon:hover .box{ border-color: #000; background-color: #000; }
+
+/*	COPYRIGHTS
+------------------------------*/
+.copyrights{
+	color: #000;
+	font-weight: 100;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	ABOUT PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.text-info p{ 
+	color: #000; 
+	font-weight: 100;
+}
+.measure-box{
+	background-color: transparent;
+	border: 1px solid;
+	border-color: rgba(0,0,0,0.1);
+}
+.measure-box .title{ font-weight: 400; }
+.measure-box .per{ background-color: #d99040; }
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	OUR-TEAM PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.team-box .text{
+	background-color: rgba(0,0,0,0.8);
+}
+.team-box .text .h-text{
+	color: #fff;
+	border-color: #d99040;
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+.team-box .small-text{
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.team-box .social-link .icon{
+	color: #d99040;
+}
+.team-box .social-link .icon:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	PORTFOLIO PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.portfolio-detail .h-text{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #d99040;
+	margin-bottom: 0;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	TIME PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.dash{
+	border: 1px solid;
+	border-color: rgba(0,0,0,0.1);
+}
+.dash .digit{
+	color: #d99040;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.dash_title{
+	color: #000;
+	font-weight: 400;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	CONTACT PAGE
+++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*  CONTACT FORM
+---------------------------------*/
+.contact-form .form-control{
+	border: 1px solid;
+	border-color: rgba(0,0,0,0.1); 
+	font-weight: 300;
+	letter-spacing: 0px;
+	background-color: transparent;
+}
+.contact-form .form-control:focus{ border-color: #000; }
+.form-control::-webkit-input-placeholder { color: #000; }
+.form-control:-moz-placeholder { color: #000; opacity: 1; }
+.form-control::-moz-placeholder { color: #000; opacity: 1; }
+.form-control:-ms-input-placeholder { color: #000; }
+
+/*  CONTACT-BOX
+---------------------------------*/
+.contact-box{ 
+	border: 1px solid rgba(0,0,0,0.1); 
+	background-color: transparent;
+}
+.contact-box .icon{
+	color: #d99040;
+	border-right: 1px solid rgba(0,0,0,0.1);
+}
+.contact-box .text p,
+.contact-box .text a{
+	color: #000;
+	font-weight: 400;
+}
+.contact-box:hover{ border-color: #000; }
+.contact-box:hover .icon{ background-color: #000; color: #fff; }
